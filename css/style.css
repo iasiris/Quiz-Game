@@ -5,6 +5,24 @@ html,
     height: 100%;
   }
 
+  .background-game{
+    background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .background-card{
+    background-color: #f8bbd0; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;      
+  }
+  
+
   @media (max-width: 740px) {
     html,
     body,
