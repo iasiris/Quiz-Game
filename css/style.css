@@ -6,7 +6,7 @@ html,
   }
   
   .background-main-page{
-    background-image: url('https://images.pexels.com/photos/2847648/pexels-photo-2847648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
      /*
      https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
      https://images.pexels.com/photos/4630894/pexels-photo-4630894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
@@ -17,18 +17,15 @@ html,
 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
    
   }
   .background-game{
     background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
-    /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .background-card{
     background-color: #f8bbd0; 
@@ -60,3 +57,6 @@ html,
     background: #f8bbd0 !important;
    }
   }
+  body { font-family: sans-serif; }
+
+
