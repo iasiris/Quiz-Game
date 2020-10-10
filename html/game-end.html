@@ -22,143 +22,127 @@
 </head>
 
 <body>
-    <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
-            <div class="container">
-                <a class="navbar-brand" href="#"><strong>Quiz Game</strong></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent-7">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Profile</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Navbar -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
 
-        <!-- Full Page Intro -->
-        <div class="view background-main-page jarallax" data-jarallax='{"speed": 0.2}'>
-            <!-- Mask & flexbox options-->
-            <div class=" mask d-flex justify-content-center align-items-center">
-                <!-- Content -->
-                <div class="container">
-                    <!--Grid row-->
-                    <div class="row wow fadeIn">
-                        <!--Grid column-->
-                        <div class="container my-5 ">
-                            <!--Section: Content-->
-                            <section class="dark-grey-text p-5">
-                                <!-- Grid row -->
-                                <div class="row">
-                                    <!-- Grid column -->
-                                    <div class="col-md-5 mb-4 mb-md-0">
-                                        <div class="view">
-                                            <img src="../img/success.png" class="img-fluid" alt="smaple image">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><strong>Quiz Game</strong></a>
+            <!-- Brand -->
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+                aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapse -->
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Links -->
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Full Page Intro -->
+    <div class="view background mask d-flex justify-content-center align-items-center">
+        <!-- Content -->
+        <div class="container">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="container my-5 p-5">
+                    <!-- Grid row -->
+                    <div class="row">
+
+                        <!-- Grid column -->
+                        <div class="col-md-5 mb-4 mb-md-0">
+                            <div class="view">
+                                <img src="../img/success.png" class="img-fluid">
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-7 mb-lg-0 mb-4">
+                            <!-- Form -->
+                            <form class="" action="">
+                                <!-- Text -->
+                                <div class="text-center">
+                                    <h1 class="font-weight-bold">Congratz!!</h1>
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="font-weight-bold">Final Score</h3>
+                                </div>
+                                <!-- Text -->
+
+                                <!-- MEJORAR DISPLAY DE PUNTAJE -->
+                                <!-- Score and Timer -->
+                                <div class="card my-5">
+                                    <div class="card-footer text-white rgba-red-strong">
+                                        <div class="row">
+                                            <!-- Darle accion de adicion de puntaje -->
+                                            <div class="col-md-6 border-right text-center font-weight-bold">
+                                                10 Points
+                                            </div>
+                                            <!-- Crear un timer que vaya de 60segs a 0segs -->
+                                            <div class="col-md-6 border-left text-center font-weight-bold">
+                                                00:00
+                                            </div>
                                         </div>
                                     </div>
-                                    <!-- Grid column -->
-
-                                    <!-- Grid column -->
-                                    <div class="col-md-7 mb-lg-0 mb-4">
-                                        <!-- Form -->
-                                        <form class="" action="">
-                                            <!-- Section heading -->
-
-                                            <!-- Text -->
-                                            <div class="text-center">
-                                                <h1 class="font-weight-bold">Congratz!!</h1>
-                                            </div>
-
-                                            <div class="text-center">
-                                                <h3 class="font-weight-bold">Final Score</h3>
-                                            </div>
-                                            <!-- Text -->
-
-                                            <!-- MEJORAR DISPLAY DE PUNTAJE -->
-
-                                            <!-- Score and Timer -->
-                                            <div class="card my-5">
-                                                <div class="card-footer text-white rgba-red-strong">
-                                                    <div class="row">
-                                                        <!-- Darle accion de adicion de puntaje -->
-                                                        <div class="col-md-6 border-right text-center font-weight-bold">
-                                                            10 Points
-                                                        </div>
-                                                        <!-- Crear un timer que vaya de 60segs a 0segs -->
-                                                        <div class="col-md-6 border-left text-center font-weight-bold">
-                                                            00:00
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- Score and Timer -->
-
-                                            <!-- Submit and save name -->
-
-                                            <h5 class="font-weight-bold my-3 ">You've got one of the best scores in the
-                                                game, save
-                                                your
-                                                name!</h5>
-
-                                            <div class="input-group">
-                                                <input type="text" class="form-control" placeholder="Enter your name"
-                                                    aria-label="Enter your name" aria-describedby="button-addon2">
-                                                <div class="input-group-append">
-                                                    <button
-                                                        class="btn btn-md btn-primary rounded-right m-0 px-3 py-2 z-depth-0 waves-effect"
-                                                        type="Save" id="button-addon2">Save</button>
-                                                </div>
-                                            </div>
-                                            <!-- Submit and save name -->
-
-                                        </form>
-                                        <!-- Form -->
-
-                                    </div>
-                                    <!-- Grid column -->
-
                                 </div>
-                                <!-- Grid row -->
+                                <!-- Score and Timer -->
 
-                            </section>
-                            <!--Section: Content-->
-
-
+                                <!-- Submit and save name -->
+                                <h5 class="font-weight-bold my-3 ">You've got one of the best scores in the
+                                    game, save
+                                    your
+                                    name!</h5>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Enter your name"
+                                        aria-label="Enter your name" aria-describedby="button-addon2">
+                                    <div class="input-group-append">
+                                        <button
+                                            class="btn btn-md btn-primary rounded-right m-0 px-3 py-2 z-depth-0 waves-effect"
+                                            type="Save" id="button-addon2">Save</button>
+                                    </div>
+                                </div>
+                                <!-- Submit and save name -->
+                            </form>
+                            <!-- Form -->
                         </div>
-                        <!--Grid column-->
+                        <!-- Grid column -->
                     </div>
-                    <!--Grid row-->
+                    <!-- Grid row -->
                 </div>
-                <!-- Content -->
+                <!--Grid column-->
             </div>
-            <!-- Mask & flexbox options-->
+            <!--Grid row-->
         </div>
-        <!-- Full Page Intro -->
-    </header>
-    <!-- Main navigation -->
+        <!-- Content -->
+    </div>
+    <!-- Full Page Intro -->
 
+    <!-- Best Scores -->
     <main>
         <div class="container my-5">
-
             <!-- Section -->
             <section>
                 <h3 class="font-weight-bold text-center dark-grey-text pb-2">Best Score</h3>
-
                 <div class="row d-flex justify-content-center">
-
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class=".col-md-6 align-items-center text-center">
@@ -199,6 +183,7 @@
             <!-- Section -->
 
     </main>
+    <!-- Best Scores -->
 
     <!-- Footer -->
     <footer class="page-footer font-small cyan darken-3">
@@ -227,7 +212,6 @@
         <!-- Footer Elements -->
     </footer>
     <!-- Footer -->
-
 
     <!-- ------------------------------------------------------------------------------------- -->
     <!-- jQuery -->

@@ -22,39 +22,49 @@
 </head>
 
 <body>
-    <!-- FALTA MEJORAR TAMAÑO DE BACKGROUND EN LA PAGINA -->
-    <div class="background-game">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="#"><strong>Quiz Game</strong></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent-7">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Profile</a>
-                        </li>
-                    </ul>
-                </div>
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><strong>Quiz Game</strong></a>
+            <!-- Brand -->
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+                aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapse -->
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <!-- Navbar -->
+            <!-- Links -->
+        </div>
+    </nav>
+    <!-- Navbar -->
 
-        <main>
+    <div class="view background mask d-flex justify-content-center py-5">
+        <!-- Content -->
+        <div class="container">
+            <!--Grid row-->
+
             <!-- Score and Timer -->
             <section>
-                <div class="container py-3">
+
+                <div class="container py-5">
                     <div class="row flex-row-reverse">
                         <!--Card -->
                         <div class="col-md-4 px-5">
@@ -126,7 +136,6 @@
                                 </div>
                                 <a type="button" class="btn btn-default btn-sm" href="./game-end.html">Submit</a>
 
-                                <br>
                             </div>
                         </div>
                     </div>
@@ -135,11 +144,38 @@
             </div>
             <!-- Cards Container -->
 
-        </main>
+        </div>
+
     </div>
-    <!-- Background Image -->
 
 
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+        </div>
+        <!-- Footer Elements -->
+    </footer>
+    <!-- Footer -->
 
     <!-- ------------------------------------------------------------------------------------- -->
     <!-- jQuery -->

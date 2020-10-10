@@ -22,104 +22,141 @@
 </head>
 
 <body>
-    <!-- FALTA MEJORAR TAMAÑO DE BACKGROUND EN LA PAGINA -->
-    <div class="background-game">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="#"><strong>Quiz Game</strong></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent-7">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Profile</a>
-                        </li>
-                    </ul>
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><strong>Quiz Game</strong></a>
+            <!-- Brand -->
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+                aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapse -->
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Links -->
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Full Page -->
+    <div class="view background mask d-flex justify-content-center py-5">
+        <!-- Content -->
+        <div class="container">
+            <!--Grid row-->
+            <div class="row">
+
+                <!-- Text -->
+                <div class="col-md-12 py-4 text-center">
+                    <h1 class="display-4 font-weight-bold">Quiz Game</h1>
+                    <h5 class="pt-md-4">Pick a
+                        Category
+                    </h5>
                 </div>
-            </div>
-        </nav>
-        <!-- Navbar -->
+                <!-- Text -->
 
-        <main>
-            <!-- Text -->
-            <div class="col-md-12 py-4 text-center">
-                <h1 class="display-4 font-weight-bold pt-md-1 wow fadeInUp">Quiz Game</h1>
-                <h5 class="pt-md-2 wow fadeInUp" data-wow-delay="0.2s">Pick a
-                    Category
-                </h5>
-            </div>
-            <!-- Text -->
+                <!-- Cards Container -->
+                <div class="container col-md-10">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <!-- HACER GIRAR TARJETAS CON UN CLICK -->
+                        <!-- Card -->
+                        <div class="col mb-4">
+                            <a href="../html/game-question.html">
+                                <div class="card h-100 card-image background-card"
+                                    style="background-image: url(https://images.pexels.com/photos/33101/new-wing-emergency-at-the-moment.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
+                                    <!-- Content -->
+                                    <div class="text-white text-center align-items-center rgba-purple-slight py-5 px-4">
+                                        <div>
+                                            <h3 class="card-title pt-2"><strong>Animals</strong></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Card -->
 
-            <!--Grid column-->
-            <div class="container col-md-8">
-                <div class="row row-cols-1 row-cols-md-3">
-
-                    <!-- HACER GIRAR TARJETAS CON UN CLICK -->
-                    <div class="col mb-4">
-                        <a href="../html/game-question.html">
-                            <!-- Card -->
-                            <div class="card h-100 card-image"
-                                style="background-image: url(https://images.pexels.com/photos/33101/new-wing-emergency-at-the-moment.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);background-position: center;background-size:cover;">
+                        <!-- Card -->
+                        <div class="col mb-4">
+                            <div class="card h-100 card-image background-card"
+                                style="background-image: url(https://images.pexels.com/photos/34521/space-shuttle-lift-off-liftoff-nasa.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
                                 <!-- Content -->
                                 <div class="text-white text-center align-items-center rgba-purple-slight py-5 px-4">
                                     <div>
-                                        <h3 class="card-title pt-2"><strong>Animals</strong></h3>
+                                        <h3 class="card-title pt-2"><strong>Science & Tec</strong></h3>
                                     </div>
                                 </div>
-
                             </div>
-                            <!-- Card -->
-                        </a>
-                    </div>
-
-                    <div class="col mb-4">
-                        <!-- Card -->
-                        <div class="card h-100 card-image"
-                            style="background-image: url(https://images.pexels.com/photos/34521/space-shuttle-lift-off-liftoff-nasa.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);;background-position: center;background-size:cover;">
-                            <!-- Content -->
-                            <div class="text-white text-center align-items-center rgba-purple-slight py-5 px-4">
-                                <div>
-                                    <h3 class="card-title pt-2"><strong>Science & Tec</strong></h3>
-                                </div>
-                            </div>
-
                         </div>
                         <!-- Card -->
-                    </div>
 
-                    <div class="col mb-4">
                         <!-- Card -->
-                        <div class="card h-100 card-image"
-                            style="background-image: url(https://images.pexels.com/photos/1338146/pexels-photo-1338146.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);background-position: center;background-size:cover;">
-                            <!-- Content -->
-                            <div class="text-white text-center align-items-center rgba-purple-slight py-5 px-4">
-                                <div>
-                                    <h3 class="card-title pt-2"><strong>Culture</strong></h3>
+                        <div class="col mb-4">
+                            <div class="card h-100 card-image background-card"
+                                style="background-image: url(https://images.pexels.com/photos/1338146/pexels-photo-1338146.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
+                                <!-- Content -->
+                                <div class="text-white text-center align-items-center rgba-purple-slight py-5 px-4">
+                                    <div>
+                                        <h3 class="card-title pt-2"><strong>Culture</strong></h3>
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
                         <!-- Card -->
+
                     </div>
                 </div>
+                <!-- Cards Container -->
             </div>
-            <!-- Cards Container -->
-
-        </main>
-
+            <!--Grid row-->
+        </div>
+        <!-- Content -->
     </div>
-    <!-- Background Image -->
+    <!-- Full Page -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+        </div>
+        <!-- Footer Elements -->
+    </footer>
+    <!-- Footer -->
 
     <!-- ------------------------------------------------------------------------------------- -->
     <!-- jQuery -->

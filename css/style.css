@@ -1,11 +1,47 @@
 html,
-  body,
-  header,
-  .view {
-    height: 100%;
-  }
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    @media (max-width: 559px) {
+
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+
+    @media (min-width: 560px) and (max-width: 740px) {
+
+      html,
+      body,
+      header,
+      .view {
+        height: 700px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+      html,
+      body,
+      header,
+      .view {
+        height: 600px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #f8bbd0 !important;
+      }
+    }
   
-  .background-main-page{
+  .background{
     background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
      /*
      https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
@@ -15,35 +51,18 @@ html,
      https://images.pexels.com/photos/3527786/pexels-photo-3527786.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
      https://images.pexels.com/photos/2847648/pexels-photo-2847648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260*/
 
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
    
   }
-  .background-game{
-    background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
   .background-card{
-    background-color: #f8bbd0; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center center;      
+    background-position: center;
+    background-size: cover;    
   }
   
-
-  @media (max-width: 740px) {
-    html,
-    body,
-    header,
-    .view {
-      height: 100vh;
-    }
-  }
-
   .top-nav-collapse {
     background-color: #f8bbd0 !important;
   }
@@ -52,11 +71,6 @@ html,
     background: transparent !important;
   }
 
-  @media (max-width: 991px) {
-   .navbar:not(.top-nav-collapse) {
-    background: #f8bbd0 !important;
-   }
-  }
   body { font-family: sans-serif; }
 
 

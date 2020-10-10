@@ -22,42 +22,48 @@
 </head>
 
 <body>
-    <!-- FALTA MEJORAR TAMAÑO DE BACKGROUND EN LA PAGINA -->
-    <div class="background-game">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="#"><strong>Quiz Game</strong></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent-7">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Profile</a>
-                        </li>
-                    </ul>
-                </div>
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><strong>Quiz Game</strong></a>
+            <!-- Brand -->
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+                aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapse -->
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <!-- Navbar -->
+            <!-- Links -->
+        </div>
+    </nav>
+    <!-- Navbar -->
 
-        <main>
-
-            <!-- Rueles -->
-            <div class="container my-3 p-5">
-                <!-- Section -->
+    <!-- Full Page -->
+    <div class="view background mask d-flex justify-content-center align-items-center">
+        <!-- Content -->
+        <div class="container">
+            <!--Grid row-->
+            <div class="row">
+                <!-- Rules -->
                 <section>
-
                     <h3 class="font-weight-bold text-center pb-2">A Few Easy Steps</h3>
                     <hr class="w-header my-3">
                     <p class="lead text-center text-muted pt-2 pb-3 mb-5">Sed ut perspiciatis unde omnis iste natus
@@ -72,7 +78,8 @@
                                 </div>
                                 <div class="media-body">
                                     <h6 class="font-weight-bold">Step One</h6>
-                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem
                                         accusantium eaque ipsa doloremque laudantium.</p>
                                 </div>
                             </div>
@@ -85,7 +92,8 @@
                                 </div>
                                 <div class="media-body">
                                     <h6 class="font-weight-bold">Step Two</h6>
-                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem
                                         accusantium eaque ipsa doloremque laudantium.</p>
                                 </div>
                             </div>
@@ -98,7 +106,8 @@
                                 </div>
                                 <div class="media-body">
                                     <h6 class="font-weight-bold">Step Three</h6>
-                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem
                                         accusantium eaque ipsa doloremque laudantium.</p>
                                 </div>
                             </div>
@@ -111,7 +120,8 @@
                                 </div>
                                 <div class="media-body">
                                     <h6 class="font-weight-bold">Step Four</h6>
-                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem
                                         accusantium eaque ipsa doloremque laudantium.</p>
                                 </div>
                             </div>
@@ -124,7 +134,8 @@
                                 </div>
                                 <div class="media-body">
                                     <h6 class="font-weight-bold">Step Five</h6>
-                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem
                                         accusantium eaque ipsa doloremque laudantium.</p>
                                 </div>
                             </div>
@@ -137,23 +148,54 @@
                                 </div>
                                 <div class="media-body">
                                     <h6 class="font-weight-bold">Step Six</h6>
-                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem
                                         accusantium eaque ipsa doloremque laudantium.</p>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-
+                    <div class="text-center">
+                        <a class="btn btn-purple btn-rounded" href="game-category.html"><i class="fas fa-user left"></i>
+                            Start!</a>
+                    </div>
                 </section>
-                <!-- Section -->
+                <!-- Rules -->
             </div>
-            <!-- Rueles -->
-        </main>
-
+            <!--Grid row-->
+        </div>
+        <!-- Content -->
     </div>
-    <!-- Background Image -->
+    <!-- Full Page -->
 
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+        </div>
+        <!-- Footer Elements -->
+    </footer>
+    <!-- Footer -->
     <!-- ------------------------------------------------------------------------------------- -->
     <!-- jQuery -->
     <script type="text/javascript" src="./js/jquery.min.js"></script>
